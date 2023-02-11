@@ -1,4 +1,4 @@
 # Unidisp
-Versatile nixie display board with onboard power supplies and driving circuitry.
+Univerzální displej s digitrony, obstarávající napájení a buzení.
 
-Design and layout by P. V. B. @ Crazy Electronics
+Tento projekt je prací P. V. B. @ Crazy Electronics www.crazyelectronics.cz
