@@ -1,8 +1,8 @@
-﻿Indukčnosti;;
+Indukčnosti;;
 L1;100uH 2A pp. 50kHz;radiální
 ;;
 Rezistory ;;
-R1;CdS 5mm;
+R1;CdS 5mm;-
 R2, R45;47k 5% ;R0207
 R3;150k 5% ;R0207
 R4;10k 1%;R0207
@@ -31,22 +31,22 @@ C7;2n2 16V ;keramický
 C8;4,7uF 250V ;elektrol. radiální
 ;;
 Diody;;
-V1;1N4007;
-V2;UF4007;
+V1;1N4007;-
+V2;UF4007;-
 V3..V7;1N4148;-
 ;;
 Tranzistory;;
 VT1;IRF740;upevnit k DPS
-VT2..VT7;MPSA92;
-VT8..VT13, VT15;MPSA42;
-VT14, VT16;BC547 ;
-VT17;BC556 ;
+VT2..VT7;MPSA92;-
+VT8..VT13, VT15;MPSA42;-
+VT14, VT16;BC547 ;-
+VT17;BC556 ;-
 ;;
 Integrované obvody;;
 A1;MA7805;upevnit k DPS
-A2;UC3845;
-D1;74x42;
-D2;74x141;
+A2;UC3845;-
+D1;74x42;-
+D2;74x141;-
 ;;
 Výbojky;;
 E1..E6;Z57xM, ZM1080(T) a ekvivalentní;
