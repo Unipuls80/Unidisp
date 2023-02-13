@@ -28,7 +28,7 @@ DP:		Řízení desetinných teček. Úroveň H otevírá tranzistor, spínajíc�
 
 COL:		Řízení spínače oddělovačů. Oddělovači se rozumí dvojtečky mezi páry digitronů - 12:34:56.
 
-P5V:		Rozvod 5V. Odběr omezený napáječem a chlazením, ideálně do 400mA.
+P5V:		Rozvod 5V pro napájení nadřazených obvodů. Bez přídavného chladiče na A1 doporučuji odebírat max 200mA.
 
 GND:		Rozvod nuly. (GND)
 
