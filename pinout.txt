@@ -1,0 +1,48 @@
+P.V.B. @ Crazy Electronics   13/02/23
+
+------X1------
+		
+		Konektor pro připojení napájení. (+) je připojeno ke středovému trnu.
+
+------X2------
+
+S0/LSB		Paralelní vstup multiplexování. Hodnotě 0 odpovídá digitron úplně vpravo,
+S1		hodnotě 5 odpovídá digitron úplně vlevo, hodnoty 6 a výše zhasínají displej
+S2/MSB
+
+D0/LSB		Paralelní vstup zobrazené číslice, formát BCD
+D1
+D2
+D3/MSB
+
+------X3------
+
+KEY		Výstup tlačítek. Tlačítka jsou multiplexovaná, aktivní úroveň L posutá o jeden úbytek diody na 0,6V. 
+		Tlačítka jsou multiplexovaná společně s digitrony: 
+		S1:LLH, S2:HHL, S3:LHL, S4:HLL, S5:LLL (S0, S1, S2)
+
+ALM:		Ovládání budiče pro akustický měnič budíku. 
+
+DP:		Řízení desetinných teček. Úroveň H otevírá tranzistor, spínající katodu navolenou pájecími
+		body JP1, JP2. Tečky jsou rovněž multiplexované.
+
+COL:		Řízení spínače oddělovačů. Oddělovači se rozumí dvojtečky mezi páry digitronů - 12:34:56.
+
+P5V:		Rozvod 5V. Odběr omezený napáječem a chlazením, ideálně do 400mA.
+
+GND:		Rozvod nuly. (GND)
+
+P12V:		Rozvod nestabilizovaného napájení. Napětí odpovídá napětí dodávaného z externího napáječe přes X1.
+
+-----X4,5-----
+
+		Připojení LED diod oddělovačů. Oddělovače jsou tvořeny dvěma LED připojenými ke konektorům X4, X5. 
+		Anody jsou spojené do vývodu 2, katody na vývodech 1, 3 X4, respektive X5.
+
+-----X6,7-----
+
+		Připojení akustického měniče, budič je navržen především pro buzení pasivního piezo měniče.
+		Umožňuje i buzení reproduktorku přes vazební kondenzátor. Výstup je na X6, X7 je 0V.
+
+Všechny log. I/O jsou úrovní TTL 5V.
+
